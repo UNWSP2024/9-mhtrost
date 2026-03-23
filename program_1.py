@@ -1,6 +1,6 @@
-#Micah Trost
-#March 23, 2026
-#Name Counter
+# Micah Trost
+# March 23, 2026
+# Name Counter from Names File
 
 def count_file_lines():
     try:
