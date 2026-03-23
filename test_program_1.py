@@ -3,7 +3,7 @@ import program_1
 def test_count():    
     output = [] 
     
-    program_1.print = lambda s : output.append(s)
+    program_1.print = lambda *args, **kwargs: output.append(" ".join(str(a) for a in args))
  
     program_1.count_file_lines()
     print(output)
